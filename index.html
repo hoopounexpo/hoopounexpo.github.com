@@ -11,6 +11,10 @@
     font-family: poppins;
     src: url("fonts/Poppins-Light.ttf");
 }
+@font-face {
+    font-family: poppinsM;
+    src: url("fonts/Poppins-Medium.ttf");
+}
 
 body{background-color:#eee;}
 
@@ -50,10 +54,10 @@ body{background-color:#eee;}
 #description{
     text-align: justify;
     text-justify: inter-word;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 62px;
+	padding-right: 62px;
 	color: black;
-	font-family: 'poppins';
+	font-family: 'poppinsM';
 	font-size: 30px;
 	width: 1140px;
 	height: 200px;
@@ -61,6 +65,7 @@ body{background-color:#eee;}
 #savedaysegment{
 	width: 1240px;
 	height: 100px;
+	margin-top: 30px;
 }
 #savetheday{
 	padding-left: 50px;
@@ -74,18 +79,17 @@ body{background-color:#eee;}
 	width: 480px;
 	height: 100px;
 	float: right;
-	font-size: 50px;
+	font-size: 40px;
 	font-family: 'poppins';
 }
 #venuesegment{
-	position: relative;
 	width: 1240px;
 	height: 132px;
 	color: black;
 	font-size: 28px;
 	text-align: center;
-	font-family: 'poppins';
-	margin-top:15px;
+	font-family: 'poppinsM';
+	top:-12px;
 }
 
 #elementmiddle{
@@ -94,12 +98,13 @@ body{background-color:#eee;}
 	background-size: 1240px 720px;	
 }
 #shadowdivision{
+	font-family: 'poppins';
+	height: 200px;
 	border-radius: 25px;
 	box-shadow: 0 40px 80px rgba(0,0,0,0.30), 0 30px 52px rgba(0,0,0,0.52);
 	top: 600px;
 	margin: auto;
 	width: 1144px;
-	height: 240px;
 	position: relative;
 	text-align: center;
 	background-color: #4e5ca9;
@@ -150,7 +155,7 @@ body{background-color:#eee;}
 	z-index: 80;
 }
 #linksegment{
-	top: -32px;
+	top: 0px;
 	position:relative;
 	margin: auto;
 	width: 1144px;
@@ -158,12 +163,14 @@ body{background-color:#eee;}
 }
 #sociallink{float:right;}
 #unsubscribe{
+	font-family: 'poppins';
 	vertical-align: middle;
 	color: white;
 	font-size: 40px;
 }
 #footer{
-	top: -35px;
+	font-family: 'poppins';
+	top: -8px;
 	position: relative;
 	margin: auto;
 	width:1144px;
@@ -196,7 +203,7 @@ body{background-color:#eee;}
 			</div>
 			<div id="savedaysegment">
 				<div id="savetheday">
-					<img src="images/savetheday.png" width="550px" height="80px"/>
+					<img src="images/savetheday.png" width="550px" height="70px"/>
 				</div>
 				<div id="datetime">
 					6th October, 2018
@@ -253,10 +260,17 @@ body{background-color:#eee;}
 				<a href="https://plus.google.com/110625906198066012371"><img src="images/icongoogleplus.png" width="56px" height="56px"/></a>
 				<a href="https://www.linkedin.com/company/hoopoun"><img src="images/iconlinkedin.png" width="56px" height="56px"/></a>
 			</div>
+			<!--
 			<p id="unsubscribe">Unsubscribe</p>
+			-->
 		</div>
 		<div id="footer">
-			<p id="pfooter">You recieved this email because you are register with Hoopoun Infotech Pvt Ltd.<br>© 2018 Hoopoun Infotech Pvt Ltd</p>
+			<p id="pfooter">You recieved this email because you are register with Hoopoun Infotech Pvt Ltd.<br>© 2018 Hoopoun Infotech Pvt Ltd<br>
+			
+			<a href="http://www.hoopoun.com/" style="color:white;">www.hoopoun.com</a>
+			
+			
+			</p>
 		</div>
 
 			
