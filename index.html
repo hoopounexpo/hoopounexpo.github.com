@@ -11,15 +11,12 @@
     font-family: poppins;
     src: url("fonts/Poppins-Light.ttf");
 }
-@font-face {
-    font-family: poppinsM;
-    src: url("fonts/Poppins-Medium.ttf");
-}
 
-body{
-}
+body{background-color:#eee;}
+
 
 #template{
+	border:2px solid white;
 	margin: auto;
 	width: 1240px;
 	height: 2160px;
@@ -51,19 +48,17 @@ body{
 	margin-right: 44px;
 }
 #description{
-	margin-top: 10px;
     text-align: justify;
     text-justify: inter-word;
 	padding-left: 50px;
 	padding-right: 50px;
 	color: black;
-	font-family: 'poppinsM';
+	font-family: 'poppins';
 	font-size: 30px;
 	width: 1140px;
 	height: 200px;
 }
 #savedaysegment{
-	margin-top: 20px;
 	width: 1240px;
 	height: 100px;
 }
@@ -75,7 +70,7 @@ body{
 #datetime{
 	color: #4e5ca9;
 	position:relative;
-	margin-top: -110px;
+	margin-top: -100px;
 	width: 480px;
 	height: 100px;
 	float: right;
@@ -83,12 +78,10 @@ body{
 	font-family: 'poppins';
 }
 #venuesegment{
-	top: -25px;
-	position: relative;
 	width: 1240px;
 	height: 132px;
 	color: black;
-	font-size: 27px;
+	font-size: 32px;
 	text-align: center;
 	font-family: 'poppins';
 }
@@ -104,7 +97,7 @@ body{
 	top: 600px;
 	margin: auto;
 	width: 1144px;
-	height: 200px;
+	height: 240px;
 	position: relative;
 	text-align: center;
 	background-color: #4e5ca9;
@@ -145,13 +138,6 @@ body{
 	border-radius: 5px;
 	float:left;
 }
-#linksegment{
-	top: -32px;
-	position:relative;
-	margin: auto;
-	width: 1144px;
-	height: 60px;
-}
 #framefb{
 	position: relative;
 	margin: auto;
@@ -161,12 +147,18 @@ body{
 	top: 115px;
 	z-index: 80;
 }
+#linksegment{
+	top: -32px;
+	position:relative;
+	margin: auto;
+	width: 1144px;
+	height: 60px;
+}
 #sociallink{float:right;}
 #unsubscribe{
-	font-family: 'poppins';
 	vertical-align: middle;
 	color: white;
-	font-size: 25px;
+	font-size: 40px;
 }
 #footer{
 	top: -35px;
@@ -177,7 +169,6 @@ body{
 	text-align: center;
 }
 #pfooter{
-	font-family: 'poppins';
 	color: white;
 	font-size: 20px;
 }
@@ -199,11 +190,11 @@ body{
 				</div>
 			</div>
 			<div id="description">
-				&emsp;&emsp;&emsp;&emsp;Hoopoun values customers who want to have great experiences every time they step out for a coffee, shopping, haircut, restaurants, bars. Simply make your day awesome by exploring personalized offers on our app, which we have gathered especially for you.
+				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Hoopoun values customers who want to have great experiences every time they step out for a coffee, shopping, haircut, restaurants, bars. Simply make your day awesome by exploring personalized offers on our app, which we have gathered especially for you.
 			</div>
 			<div id="savedaysegment">
 				<div id="savetheday">
-					<img src="images/savetheday.png" width="600px" height="60px"/>
+					<img src="images/savetheday.png" width="650px" height="80px"/>
 				</div>
 				<div id="datetime">
 					6th October, 2018
@@ -238,37 +229,36 @@ body{
 	
 	
 	
+	
 	<!-- Start of element bottom-->
 		<div id="elementbottom" class="element">
 			<div id="qrcodesegment">
-				<img id="qrcode" src="images/qrcode.png" alt="qrcode" width="304px" height="400px"/>
+				<img id="qrcode" src="images/qrcode1.png" alt="qrcode" width="304px" height="400px"/>
 			</div>
 			<div id="marketplace">
 				<a href="https://play.google.com/store/apps/details?id=com.hoopoun"><img id="mp-googleplay" src="images/badgegoogleplay.png" width="300px" height="90px"/></a>
+				
 				<iframe id="framefb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhoopoun%2F&width=120&layout=button_count&action=like&size=large&show_faces=false&share=false&height=21&appId" width="120" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				
 				<a href="https://itunes.apple.com/us/app/hoopoun/id1327355263?mt=8"><img id="mp-appstore" src="images/badgeappstore.png" width="300px" height="90px"/></a>
-				</div>
-
-			<div id="linksegment">
-				<div id="sociallink">
-					<a href="https://twitter.com/hoopounapp"><img src="images/icontwitter.png" width="56px" height="56px"/></a>
-					<a href="https://www.facebook.com/hoopoun/"><img src="images/iconfacebook.png" width="56px" height="56px"/></a>
-					<a href="https://www.instagram.com/hoopoun/"><img src="images/iconinstagram.png" width="56px" height="56px"/></a>
-					<a href="https://plus.google.com/110625906198066012371"><img src="images/icongoogleplus.png" width="56px" height="56px"/></a>
-					<a href="https://www.linkedin.com/company/hoopoun"><img src="images/iconlinkedin.png" width="56px" height="56px"/></a>
-				</div>
-				<p id="unsubscribe">Unsubscribe</p>
 			</div>
-			<div id="footer">
-				<p id="pfooter">You recieved this email because you are register with Hoopoun Infotech Pvt Ltd.<br>© 2018 Hoopoun Infotech Pvt Ltd<br><a href="http://hoopoun.com" style="color:white">www.hoopoun.com</a></p>
+
+		<div id="linksegment">
+			<div id="sociallink">
+				<a href="https://twitter.com/hoopounapp"><img src="images/icontwitter.png" width="56px" height="56px"/></a>
+				<a href="https://www.facebook.com/hoopoun/"><img src="images/iconfacebook.png" width="56px" height="56px"/></a>
+				<a href="https://www.instagram.com/hoopoun/"><img src="images/iconinstagram.png" width="56px" height="56px"/></a>
+				<a href="https://plus.google.com/110625906198066012371"><img src="images/icongoogleplus.png" width="56px" height="56px"/></a>
+				<a href="https://www.linkedin.com/company/hoopoun"><img src="images/iconlinkedin.png" width="56px" height="56px"/></a>
 			</div>
-		
-		
-		
+			<p id="unsubscribe">Unsubscribe</p>
+		</div>
+		<div id="footer">
+			<p id="pfooter">You recieved this email because you are register with Hoopoun Infotect Pvt Ltd.<br>© 2018 Hoopoun Infotect Pvt Ltd</p>
+		</div>
 
-<!--		
-
--->	
+		
+		
 		</div>
 	<!-- Start of element bottom-->
 	
